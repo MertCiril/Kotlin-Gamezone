@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F0A732">
+
+
+    <ImageView
+        android:layout_width="133dp"
+        android:layout_height="168dp"
+        android:layout_below="@+id/gamezoneid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/logo"
+        ></ImageView>
+
+
+    <ImageView
+        android:id="@+id/gamezoneid"
+        android:layout_width="315dp"
+        android:layout_height="129dp"
+        android:src="@drawable/gamezone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        ></ImageView>
+
+    <Button
+        android:id="@+id/kayitolbutton"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/buttonbackground"
+        android:onClick="kayitolbtn"
+
+
+        android:text="KAYDOL"
+        android:textColor="@color/white"
+
+
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/girisyapbutton"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/buttonbackground"
+        android:onClick="girisbtn"
+
+        android:text="Giriş yap"
+        android:textColor="@color/white"
+
+
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="600dp"
+        android:text="Powered by "
+        android:textSize="18dp">
+
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="580dp"
+        android:src="@drawable/fiveta_logo3">
+
+    </ImageView>
+
+
+</RelativeLayout>

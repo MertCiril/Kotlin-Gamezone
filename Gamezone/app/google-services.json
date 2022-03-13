@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "887040055752",
+    "project_id": "gamezone-ab308",
+    "storage_bucket": "gamezone-ab308.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887040055752:android:4ae68a953e086c0aee88fd",
+        "android_client_info": {
+          "package_name": "com.ismailturk.gamezone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887040055752-o3luhn2dlmhvhq61a86v8qh41hk8hves.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ismailturk.gamezone",
+            "certificate_hash": "92d041b10f4b99acf72dbce1032e06ea9f9a6ae0"
+          }
+        },
+        {
+          "client_id": "887040055752-hfbcmciugaa4c795hrm6pvd258288ocg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq02elxKHBqQdKbQ_GP7M9NuTUPGLIl2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887040055752-hfbcmciugaa4c795hrm6pvd258288ocg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

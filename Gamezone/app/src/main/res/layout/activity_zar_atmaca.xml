@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".ZarAtmaca"
+    android:background="@drawable/backgroundzar"
+    >
+    <ImageView
+        android:id="@+id/zarAt5"
+        android:layout_width="147dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zar5" />
+
+    <ImageView
+        android:id="@+id/zarAt6"
+        android:layout_width="147dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/zarAt5"
+        app:srcCompat="@drawable/zar6" />
+
+    <ImageView
+        android:id="@+id/zarAt4"
+        android:layout_width="147dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/zarAt5"
+        app:srcCompat="@drawable/zar4" />
+
+    <ImageView
+        android:id="@+id/zarImage"
+        android:layout_width="300dp"
+        android:layout_height="296dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/zar1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"></ImageView>
+
+    <ImageView
+        android:id="@+id/zarAt1"
+        android:layout_width="147dp"
+        android:layout_height="143dp"
+        app:layout_constraintEnd_toStartOf="@+id/zarAt2"
+        app:layout_constraintTop_toTopOf="@+id/zarAt2"
+        app:srcCompat="@drawable/zar1" />
+
+    <ImageView
+        android:id="@+id/zarAt2"
+        android:layout_width="147dp"
+        android:layout_height="143dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zar2" />
+
+    <ImageView
+        android:id="@+id/zarAt3"
+        android:layout_width="147dp"
+        android:layout_height="143dp"
+        app:layout_constraintStart_toEndOf="@+id/zarAt2"
+        app:layout_constraintTop_toTopOf="@+id/zarAt2"
+        app:srcCompat="@drawable/zar3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="Lütfen Oynamak İstediğiniz Zarı Seçiniz"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/zarAt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView94"
+        android:layout_width="80dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="15dp"
+        android:background="#00000000"
+        android:backgroundTint="#00AA0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:srcCompat="@drawable/ok" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
